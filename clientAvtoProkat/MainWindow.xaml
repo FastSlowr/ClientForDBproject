@@ -1,0 +1,28 @@
+﻿<Window x:Class="clientAvtoProkat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:clientAvtoProkat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu Height="25" VerticalAlignment="Top">
+        <MenuItem Name="menu" Header="Таблицы">
+            <MenuItem Header="Клиенты" Click="ClientShowTable"></MenuItem>
+            <MenuItem Header="Машины" Click="CarShowTable"></MenuItem>
+            <MenuItem Name="Zak" Header="Заказ" Click="ZakazShowTable"></MenuItem>
+            <MenuItem Name="Sot" Header="Сотрудники" Click="EmployeeShowTable"></MenuItem>
+            <MenuItem Name="Pos" Header="Пост" Click="PostShowTable"></MenuItem>
+        </MenuItem>
+            <MenuItem Name="AddButton" Header="Добавить" Click="AddButton_Click"></MenuItem>
+            <MenuItem Name="UpdateButton" Header="Изменить" Click="UpdateButton_Click"></MenuItem>
+            <MenuItem Name="DeleteButton" Header="Удалить" Click="DeleneButton_Click"></MenuItem>
+            <MenuItem Name="SearchButton" Header="Поиск машины" Click="SearchButton_Click"></MenuItem>
+        </Menu>
+        <DataGrid ItemsSource="{Binding}" Name="DT" Margin="0,20,0,0" />
+    </Grid>
+</Window>

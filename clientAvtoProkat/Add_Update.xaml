@@ -1,0 +1,41 @@
+﻿<Window x:Class="clientAvtoProkat.Add_Update"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:clientAvtoProkat"
+        mc:Ignorable="d"
+        Title="Add" Height="560" Width="410">
+    <Grid>
+        <TextBlock x:Name="IdLabel" Text="ID" Margin="3,9,267.6,491.8" Height="20"/>
+        <TextBox Name="IDTextBox" Margin="76,9,23.6,491.8" Height="20" />
+        <ComboBox Name="IDCombo" Margin="76,9,23.6,491.8" Height="20" SelectionChanged="IDCombo_SelectionChanged"/>
+        <Button Name="ADDbutton" Content="Add"  Margin="57,491,286,10" Height="20" Width="50" Click="AddButtonClick" RenderTransformOrigin="0.504,0.5"/>
+        <TextBlock x:Name="NameLabel" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="NameTextBox" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label3" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox3" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label4" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox4" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label5" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox5" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label6" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox6" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label7" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox7" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label8" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox8" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBlock x:Name="Label9" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBlock x:Name="Label10" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBlock x:Name="Label11" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBlock x:Name="Label12" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBlock x:Name="Label13" Text="Name" Margin="3,40,267.6,460.8" Height="20"/>
+        <TextBox Name="TextBox9" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBox Name="TextBox10" Margin="76,40,23.6,460.8" Height="20" />
+        <TextBox Name="TextBox11" Margin="76,40,23.6,460.8" Height="20" />
+        <DatePicker Name="date1" Margin="76,39,23.6,461.8" Height="20" />
+        <DatePicker Name="date2" Margin="76,39,23.6,461.8" Height="20" />
+        <CheckBox x:Name="CB1" Margin="76,39,23.6,461.8" Height="20" />
+        <CheckBox x:Name="CB2" Margin="76,39,23.6,462" Height="20" />
+    </Grid>
+</Window>
